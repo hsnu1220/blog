@@ -1,6 +1,6 @@
 ---
 title: "Hello world!"
-tag: test
+tags: test
 ---
 
 # 請坐

@@ -25,8 +25,9 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
-   gem "webrick", "~> 1.7"
-   gem "kramdown-parser-gfm"
-   gem "jekyll-seo-tag"
-   gem "jekyll-spaceship"
+   gem 'webrick', '~> 1.7'
+   gem 'kramdown-parser-gfm'
+   gem 'jekyll-seo-tag'
+   gem 'jekyll-archives'
+   gem 'jekyll-spaceship'
 end
