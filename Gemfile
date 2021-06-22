@@ -25,6 +25,6 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
+   gem "webrick", "~> 1.7"
+   gem "jekyll-spaceship"
 end
-
-gem "webrick", "~> 1.7"
