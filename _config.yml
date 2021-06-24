@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "zh-TW"
-title                    : "阿布基ê不羈閣"
+title                    : "不羈閣"
 title_separator          : "-"
 subtitle                 : ""
-name                     : ""
+name                     : "Tsong-Gī Lîm"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -96,13 +96,13 @@ analytics:
 author:
   name             : "Tsong-Gī Lîm"
   avatar           : "/assets/images/avatar.png"
-  bio              : "量化交易研究新手、業餘消息理論迷"
+  bio              : "&ensp;量化交易研究菜鳥仔<br /> &ensp;業餘消息理論迷"
   location         : "Taipei, Taiwan"
-  email            : ""
+  email            : "mailto:hsnu1220@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      # url: "mailto:hsnu1220@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -147,7 +147,6 @@ include:
   - .htaccess
   - _pages
   - _posts
-  - _about
   - leetcode
 exclude:
   - "*.sublime-project"
@@ -215,14 +214,14 @@ timezone: Asia/Taipei
 
 
 # Collections
-collections:
-  about:
-    output: true
-    permalink: /:collection/:path/
-    order:
-      - taigi.mdb
-      - english.md
-      - mandarin.md
+# collections:
+#   about:
+#     output: true
+#     permalink: /:collection/:path/
+#     order:
+#       - taigi.md
+#       - english.md
+#       - mandarin.md
 
 
 # Plugins (previously gems:)
@@ -356,6 +355,20 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # about
+  - scope:
+      path: "about"
+      type: pages
+    values:
+      layout: single
+      title: "[Lí-hó](/about/){: .btn .btn--inverse .btn--small} [Welcome](/about/english){: .btn .btn--inverse .btn--small} [你好](/about/mandarin){: .btn .btn--inverse .btn--small}"
+  # academia
+  - scope:
+      path: "academia"
+      type: pages
+    values:
+      layout: single
+      title: "[Ha̍k-Su̍t](/academia/){: .btn .btn--inverse .btn--small} [Research](/academia/english){: .btn .btn--inverse .btn--small}"
   # _posts
   - scope:
       path: ""
@@ -368,13 +381,6 @@ defaults:
       share: true
       related: true
       show_date: true
-  # _about
-  - scope:
-      path: ""
-      type: about
-    values:
-      layout: single
-      author_profile: true
   # tags
   - scope:
       path: ""

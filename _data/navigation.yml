@@ -8,6 +8,8 @@ main:
     url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
+  # - title: "學術"
+  #   url: /academia/
   - title: "分類"
     url: /categories/
   # - title: "Sitemap"
