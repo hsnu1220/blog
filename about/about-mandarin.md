@@ -2,14 +2,15 @@
 permalink: /about/mandarin
 ---
 
+{{ page.versions }}
 
 
-<br />
+
 我是宗毅，很高興認識你！
 
 
 :rocket:
-我剛加入Kronos量化交易團隊
+就在剛剛，我加入Kronos量化交易團隊啦 :tada:
 
 [:point_right: 我的履歷](/about/resume.pdf)
 {: .text-right}

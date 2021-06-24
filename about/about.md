@@ -2,7 +2,8 @@
 permalink: /about/
 ---
 
+{{ page.versions }}
 
 
-<br />
+
 食飽未! 我是宗毅

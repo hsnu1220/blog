@@ -2,7 +2,8 @@
 permalink: /about/english
 ---
 
+{{ page.versions }}
 
 
-<br />
+
 Hey friends, I'm Chung-Yi.
