@@ -1,5 +1,5 @@
 ---
-title: "[LeetCode] 2. Add Two Numbers"
+title: "Add Two Numbers"
 tags: linked-list
 ---
 
