@@ -1,5 +1,17 @@
 <!-- start custom head snippets -->
 
+<!-- custom page css -->
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {% endfor %}
+{% endif %}
+
+<!-- select tongue-->
+<style>
+   .lang-select {}
+</style>
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
 
@@ -13,12 +25,5 @@
   href="https://cdn.jsdelivr.net/npm/taipei-sans-tc/dist/Bold/TaipeiSansTCBeta-Bold.css"
   rel="stylesheet"
 />
-
-<!-- custom page css -->
-{% if page.page_css %}
-  {% for stylesheet in page.page_css %}
-    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
-  {% endfor %}
-{% endif %}
 
 <!-- end custom head snippets -->

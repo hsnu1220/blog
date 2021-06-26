@@ -2,7 +2,8 @@
 permalink: /academia/
 ---
 
-{{ page.versions }}
+[Gián-kiù](/academia/){: .btn .btn--inverse}
+[Research](/academia/english){: .btn .btn--inverse}
 
 
 

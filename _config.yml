@@ -19,7 +19,7 @@ locale                   : "zh-TW"
 title                    : "不羈閣"
 title_separator          : "-"
 subtitle                 : ""
-name                     : "Tsong-Gī Lîm"
+name                     : "Tsong-Gí Lîm"
 description              : ""
 url                      : "https://cy-blog.vercel.app"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -360,13 +360,7 @@ defaults:
       path: "about"
       type: pages
     values:
-      versions: 
-  # academia
-  - scope:
-      path: "academia"
-      type: pages
-    values:
-      versions: "[Gián-kiù](/academia/){: .btn .btn--inverse} [Research](/academia/english){: .btn .btn--inverse}"
+      versions:
   # _posts
   - scope:
       path: ""
@@ -378,6 +372,7 @@ defaults:
       comments: false
       share: true
       related: true
+  # leetcode
   - scope:
       path: "leetcode"
       type: posts

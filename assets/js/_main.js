@@ -133,4 +133,23 @@ $(document).ready(function() {
       $(this).append(anchor);
     }
   });
+
+   // Language selection
+   $(".btn.lang-select").on("click", function() {
+      $(this).addClass("btn--info");
+      var currTongue = $(this).attr("data-tongue");
+      $("div[data-tongue="+currTongue+"]").show();
+      for (const tongue of ["taigi", "english", "mandarin"]) {
+         console.log(tongue);
+         if (tongue != currTongue) {
+            // toggle button color
+            var button = $(".btn[data-tongue="+tongue+"]").addClass("btn--inverse");
+            if (button && button.hasClass("btn--info")) {
+               button.removeClass("btn--info");
+            }
+            // toggle division
+            $("div[data-tongue="+tongue+"]").hide();
+         }
+      }
+   });
 });
