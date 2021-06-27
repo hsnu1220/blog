@@ -12,7 +12,14 @@ Welcome
 
 
 <div data-tongue="taigi">
-   <h2>食飽未! 我是宗毅</h2>
+   <h2>
+      <ruby>
+      食 <rp>(</rp><rt>tsia̍h</rt><rp>)</rp>
+      飽 <rp>(</rp><rt>pá</rt><rp>)</rp>
+      未 <rp>(</rp><rt>buē</rt><rp>)</rp>
+      </ruby>
+      ! 我是宗毅
+   </h2>
 </div>
 
 
